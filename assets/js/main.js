@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
       submitBtn.textContent = '送信中...'
 
       // Google Apps ScriptのURL
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbyghkeJBY4vAq0J1879qooxBdd4JejHWsi3D4EhQmTOIORYsyJMHfyje3j8mdx0QVGCoA/exec'
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzeOxWN-5Umru7ylc8iR9jpgO2j6SumM4epyqN3XdZKkufzFbwvdwp0jh3sT-vOy-dVPA/exec'
 
       if (scriptURL === '') {
         alert('送信先が設定されていません。管理者に連絡してください。')
